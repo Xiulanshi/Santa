@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D974900E1C0D2CF4005DECCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D974900D1C0D2CF4005DECCB /* main.m */; };
+		D97490111C0D2CF4005DECCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97490101C0D2CF4005DECCB /* AppDelegate.m */; };
+		D97490141C0D2CF4005DECCB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D97490131C0D2CF4005DECCB /* GameScene.m */; };
+		D97490161C0D2CF4005DECCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D97490151C0D2CF4005DECCB /* GameScene.sks */; };
+		D97490191C0D2CF4005DECCB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97490181C0D2CF4005DECCB /* GameViewController.m */; };
+		D974901C1C0D2CF4005DECCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D974901A1C0D2CF4005DECCB /* Main.storyboard */; };
+		D974901E1C0D2CF4005DECCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D974901D1C0D2CF4005DECCB /* Assets.xcassets */; };
+		D97490211C0D2CF4005DECCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D974901F1C0D2CF4005DECCB /* LaunchScreen.storyboard */; };
+		D974902C1C0D2CF4005DECCB /* SantaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D974902B1C0D2CF4005DECCB /* SantaTests.m */; };
+		D97490371C0D2CF4005DECCB /* SantaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97490361C0D2CF4005DECCB /* SantaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97490281C0D2CF4005DECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97490011C0D2CF3005DECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97490081C0D2CF3005DECCB;
+			remoteInfo = Santa;
+		};
+		D97490331C0D2CF4005DECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97490011C0D2CF3005DECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97490081C0D2CF3005DECCB;
+			remoteInfo = Santa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97490091C0D2CF3005DECCB /* Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D974900D1C0D2CF4005DECCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D974900F1C0D2CF4005DECCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97490101C0D2CF4005DECCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97490121C0D2CF4005DECCB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D97490131C0D2CF4005DECCB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D97490151C0D2CF4005DECCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D97490171C0D2CF4005DECCB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D97490181C0D2CF4005DECCB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D974901B1C0D2CF4005DECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D974901D1C0D2CF4005DECCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97490201C0D2CF4005DECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D97490221C0D2CF4005DECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97490271C0D2CF4005DECCB /* SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D974902B1C0D2CF4005DECCB /* SantaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SantaTests.m; sourceTree = "<group>"; };
+		D974902D1C0D2CF4005DECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97490321C0D2CF4005DECCB /* SantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97490361C0D2CF4005DECCB /* SantaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SantaUITests.m; sourceTree = "<group>"; };
+		D97490381C0D2CF4005DECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97490061C0D2CF3005DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97490241C0D2CF4005DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D974902F1C0D2CF4005DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97490001C0D2CF3005DECCB = {
+			isa = PBXGroup;
+			children = (
+				D974900B1C0D2CF4005DECCB /* Santa */,
+				D974902A1C0D2CF4005DECCB /* SantaTests */,
+				D97490351C0D2CF4005DECCB /* SantaUITests */,
+				D974900A1C0D2CF3005DECCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D974900A1C0D2CF3005DECCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97490091C0D2CF3005DECCB /* Santa.app */,
+				D97490271C0D2CF4005DECCB /* SantaTests.xctest */,
+				D97490321C0D2CF4005DECCB /* SantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D974900B1C0D2CF4005DECCB /* Santa */ = {
+			isa = PBXGroup;
+			children = (
+				D974900F1C0D2CF4005DECCB /* AppDelegate.h */,
+				D97490101C0D2CF4005DECCB /* AppDelegate.m */,
+				D97490121C0D2CF4005DECCB /* GameScene.h */,
+				D97490131C0D2CF4005DECCB /* GameScene.m */,
+				D97490151C0D2CF4005DECCB /* GameScene.sks */,
+				D97490171C0D2CF4005DECCB /* GameViewController.h */,
+				D97490181C0D2CF4005DECCB /* GameViewController.m */,
+				D974901A1C0D2CF4005DECCB /* Main.storyboard */,
+				D974901D1C0D2CF4005DECCB /* Assets.xcassets */,
+				D974901F1C0D2CF4005DECCB /* LaunchScreen.storyboard */,
+				D97490221C0D2CF4005DECCB /* Info.plist */,
+				D974900C1C0D2CF4005DECCB /* Supporting Files */,
+			);
+			path = Santa;
+			sourceTree = "<group>";
+		};
+		D974900C1C0D2CF4005DECCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D974900D1C0D2CF4005DECCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D974902A1C0D2CF4005DECCB /* SantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D974902B1C0D2CF4005DECCB /* SantaTests.m */,
+				D974902D1C0D2CF4005DECCB /* Info.plist */,
+			);
+			path = SantaTests;
+			sourceTree = "<group>";
+		};
+		D97490351C0D2CF4005DECCB /* SantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97490361C0D2CF4005DECCB /* SantaUITests.m */,
+				D97490381C0D2CF4005DECCB /* Info.plist */,
+			);
+			path = SantaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97490081C0D2CF3005DECCB /* Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D974903B1C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "Santa" */;
+			buildPhases = (
+				D97490051C0D2CF3005DECCB /* Sources */,
+				D97490061C0D2CF3005DECCB /* Frameworks */,
+				D97490071C0D2CF3005DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Santa;
+			productName = Santa;
+			productReference = D97490091C0D2CF3005DECCB /* Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97490261C0D2CF4005DECCB /* SantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D974903E1C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "SantaTests" */;
+			buildPhases = (
+				D97490231C0D2CF4005DECCB /* Sources */,
+				D97490241C0D2CF4005DECCB /* Frameworks */,
+				D97490251C0D2CF4005DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97490291C0D2CF4005DECCB /* PBXTargetDependency */,
+			);
+			name = SantaTests;
+			productName = SantaTests;
+			productReference = D97490271C0D2CF4005DECCB /* SantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97490311C0D2CF4005DECCB /* SantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97490411C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "SantaUITests" */;
+			buildPhases = (
+				D974902E1C0D2CF4005DECCB /* Sources */,
+				D974902F1C0D2CF4005DECCB /* Frameworks */,
+				D97490301C0D2CF4005DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97490341C0D2CF4005DECCB /* PBXTargetDependency */,
+			);
+			name = SantaUITests;
+			productName = SantaUITests;
+			productReference = D97490321C0D2CF4005DECCB /* SantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97490011C0D2CF3005DECCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xiulan Shi";
+				TargetAttributes = {
+					D97490081C0D2CF3005DECCB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D97490261C0D2CF4005DECCB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D97490081C0D2CF3005DECCB;
+					};
+					D97490311C0D2CF4005DECCB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D97490081C0D2CF3005DECCB;
+					};
+				};
+			};
+			buildConfigurationList = D97490041C0D2CF3005DECCB /* Build configuration list for PBXProject "Santa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97490001C0D2CF3005DECCB;
+			productRefGroup = D974900A1C0D2CF3005DECCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97490081C0D2CF3005DECCB /* Santa */,
+				D97490261C0D2CF4005DECCB /* SantaTests */,
+				D97490311C0D2CF4005DECCB /* SantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97490071C0D2CF3005DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97490161C0D2CF4005DECCB /* GameScene.sks in Resources */,
+				D97490211C0D2CF4005DECCB /* LaunchScreen.storyboard in Resources */,
+				D974901E1C0D2CF4005DECCB /* Assets.xcassets in Resources */,
+				D974901C1C0D2CF4005DECCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97490251C0D2CF4005DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97490301C0D2CF4005DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97490051C0D2CF3005DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97490191C0D2CF4005DECCB /* GameViewController.m in Sources */,
+				D97490111C0D2CF4005DECCB /* AppDelegate.m in Sources */,
+				D97490141C0D2CF4005DECCB /* GameScene.m in Sources */,
+				D974900E1C0D2CF4005DECCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97490231C0D2CF4005DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D974902C1C0D2CF4005DECCB /* SantaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D974902E1C0D2CF4005DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97490371C0D2CF4005DECCB /* SantaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97490291C0D2CF4005DECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97490081C0D2CF3005DECCB /* Santa */;
+			targetProxy = D97490281C0D2CF4005DECCB /* PBXContainerItemProxy */;
+		};
+		D97490341C0D2CF4005DECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97490081C0D2CF3005DECCB /* Santa */;
+			targetProxy = D97490331C0D2CF4005DECCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D974901A1C0D2CF4005DECCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D974901B1C0D2CF4005DECCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D974901F1C0D2CF4005DECCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97490201C0D2CF4005DECCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97490391C0D2CF4005DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D974903A1C0D2CF4005DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D974903C1C0D2CF4005DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Santa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.Santa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D974903D1C0D2CF4005DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Santa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.Santa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D974903F1C0D2CF4005DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SantaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.SantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa.app/Santa";
+			};
+			name = Debug;
+		};
+		D97490401C0D2CF4005DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SantaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.SantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa.app/Santa";
+			};
+			name = Release;
+		};
+		D97490421C0D2CF4005DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SantaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.SantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Santa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D97490431C0D2CF4005DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SantaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.SantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Santa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97490041C0D2CF3005DECCB /* Build configuration list for PBXProject "Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97490391C0D2CF4005DECCB /* Debug */,
+				D974903A1C0D2CF4005DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D974903B1C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D974903C1C0D2CF4005DECCB /* Debug */,
+				D974903D1C0D2CF4005DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D974903E1C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "SantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D974903F1C0D2CF4005DECCB /* Debug */,
+				D97490401C0D2CF4005DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97490411C0D2CF4005DECCB /* Build configuration list for PBXNativeTarget "SantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97490421C0D2CF4005DECCB /* Debug */,
+				D97490431C0D2CF4005DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97490011C0D2CF3005DECCB /* Project object */;
+}
